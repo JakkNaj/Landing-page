@@ -1,0 +1,24 @@
+
+
+header{
+    background-color: #1f2937ee;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+header-left{
+    display: flex;
+}
+
+header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(123, 215, 185);
+}
