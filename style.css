@@ -1,6 +1,6 @@
 
 
-header, first-section{
+header, .dark-section{
     background-color: #1f2937ee;
     display: flex;
     justify-content: space-between;
@@ -8,12 +8,12 @@ header, first-section{
     padding-right: 160px;
 }
 
-header-left h3 {
+.header-left h3 {
     color:#F9FAF8;
     font-size: 24px;
 }
 
-header-right {
+.header-right {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -25,7 +25,7 @@ a{
     font-size: 18px;
 }
 
-first-section {
+.dark-section {
     padding-top: 80px;
     padding-bottom: 80px;
     gap: 300px;
@@ -46,18 +46,19 @@ p {
     margin-bottom: 5px;
 }
 
-first-section button {
+.dark-section button {
     background-color: #3882F6;
     color:#E5E7EB;
     font-weight: bold;
     border: 0px;
     border-radius: 5px;
     padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;;
 }
 
-second-section {
+.white-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,31 +66,32 @@ second-section {
     padding-left: 240px;
     padding-right: 240px;
 }
-second-section h2 {
+.white-section h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
 }
 
-ss-images {
+.ws-images {
     padding: 20px;
     display: flex;
     justify-content: space-around;
     gap: 50px
 }
 
-ss-images first, second, third, fourth {
+.ws-images > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-ss-images img {
+.ws-images img {
     border-radius: 10px;
-    border: 5px solid #1f2937;
+    border: 1px solid #3882F6;
 }
-ss-images p {
+
+.ws-images p {
     padding-top: 10px;
     color: #1f2937;
     font-size: 18px;
