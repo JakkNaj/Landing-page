@@ -131,18 +131,3 @@ h1 {
 .white-section-2 p, h3 {
     color:white
 }
-
-.white-section-2 .sign-up {
-    border: 1px solid #E5E7EB
-}
-
-.footer{
-    background-color: #1f2937;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-}
-
-.footer p {
-    color:#E5E7EB
-}
