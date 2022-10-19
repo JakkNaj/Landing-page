@@ -8,7 +8,7 @@ header, first-section{
     padding-right: 160px;
 }
 
-header-left h2 {
+header-left h3 {
     color:#F9FAF8;
     font-size: 24px;
 }
@@ -61,11 +61,18 @@ second-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding: 30px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+second-section h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 ss-images {
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     gap: 50px
@@ -75,10 +82,15 @@ ss-images first, second, third, fourth {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-ss-images second p {
-    display: flex;
-    justify-content: center;
+ss-images img {
+    border-radius: 10px;
+    border: 5px solid #1f2937;
 }
-
+ss-images p {
+    padding-top: 10px;
+    color: #1f2937;
+    font-size: 18px;
+}
