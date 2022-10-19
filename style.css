@@ -45,7 +45,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-button .sign-up {
+.sign-up {
     background-color: #3882F6;
     color:#E5E7EB;
     font-weight: bold;
@@ -124,10 +124,25 @@ button .sign-up {
     margin: 80px;
     margin-left: 160px;
     margin-right: 160px;
-    border-radius: 20px;
+    border-radius: 10px;
     display:flex;
     align-items: center;
 }
 .white-section-2 p, h3 {
     color:white
+}
+
+.white-section-2 .sign-up {
+    border: 1px solid #E5E7EB
+}
+
+.footer{
+    background-color: #1f2937;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.footer p {
+    color:#E5E7EB
 }
