@@ -8,8 +8,9 @@ header, first-section{
     padding-right: 160px;
 }
 
-header-left{
-    display: flex;
+header-left h2 {
+    color:#F9FAF8;
+    font-size: 24px;
 }
 
 header-right {
@@ -20,7 +21,8 @@ header-right {
 
 a{
     text-decoration: none;
-    color:rgb(123, 215, 185);
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
 first-section {
@@ -41,8 +43,7 @@ p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 first-section button {
@@ -54,5 +55,30 @@ first-section button {
     padding: 5px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+ss-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px
+}
+
+ss-images first, second, third, fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ss-images second p {
+    display: flex;
+    justify-content: center;
 }
 
