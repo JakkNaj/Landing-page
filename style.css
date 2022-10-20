@@ -1,4 +1,11 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 header, .dark-section, .white-section-2{
+    padding:0px;
+    margin:0px;
     background-color: #1f2937ee;
     display: flex;
     justify-content: space-between;
